@@ -4,12 +4,16 @@
   "description": "",
   "main": "index.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "lint": "standard"
   },
   "author": "",
   "license": "ISC",
   "dependencies": {
     "@tensorflow/tfjs": "^0.13.0",
     "@tensorflow/tfjs-node": "^0.1.17"
+  },
+  "devDependencies": {
+    "standard": "^17.0.0"
   }
 }
